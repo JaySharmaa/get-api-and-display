@@ -1,0 +1,26 @@
+<h2>{{name | uppercase}}</h2>
+<h2>{{name | lowercase}}</h2>
+
+<p>{{message | titlecase}}</p>
+<p>{{message | slice:4:8}}</p>
+
+<p>{{person | json}}</p>
+
+<p>{{1.676 | number:'1.2-3'}}</p>
+<p>{{1.676 | number:'2.4-5'}}</p>
+<p>{{1.676 | number:'3.1-2'}}</p>
+
+
+<!-- 1 is 100% , 0.25 is 25% and so on -->
+<p>{{1 | percent}}</p>   
+<p>{{.20 | percent}}</p>
+
+<!-- TO Chnage currency add value next to it -->
+<p>{{25 | currency:"INR"}}</p>
+
+
+<!-- we also have meduim and long date and time -->
+<p>{{date}}</p>
+<p>{{date | date:"short"}}</p>
+<p>{{date | date:"shortTime"}}</p>
+<p>{{date | date:"shortDate"}}</p>

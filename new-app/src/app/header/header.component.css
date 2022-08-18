@@ -1,0 +1,19 @@
+ul{
+    list-style-type: none;
+    float: right;
+}
+nav{
+    background-color: crimson;
+}
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+li a {
+    text-decoration: none;
+    color: khaki;
+    cursor: pointer;
+}
+img{
+    width: 100px;
+}
